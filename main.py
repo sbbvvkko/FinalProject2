@@ -51,10 +51,7 @@ hero.img = pg.image.load ('img.png')
 platforms = pg.sprite.Group()
 platform_list = [ (100, 500, 200, 20), (400, 400, 200, 20),(200, 300, 200, 20), (500, 200, 200, 20)]
 
-for platform_data in platform_list:
-    platform = Platform(platform_data)
-    platforms.add(platform)
-    all_sprites.add(platform)
+
 
 
 
